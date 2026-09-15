@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cowryrise</title>
+    <link rel="stylesheet" href="CSS/cowryrise.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar- border border-2 rounded mt-4 sticky-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="#">cowryrise</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Guides
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Products</a></li>
+            <li><a class="dropdown-item" href="#">Stocks</a></li>
+            <li><a class="dropdown-item" href="#">Personal Finance</a></li>
+             <li><a class="dropdown-item" href="#">How To</a></li>
+              <li><a class="dropdown-item" href="#">Savings</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Testimonials
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Stories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            At Work
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ope's Diary</a></li>
+            <li><a class="dropdown-item" href="#">Engineering</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Expert Piece</a></li>
+            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Company
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Updates</a></li>
+            <li><a class="dropdown-item" href="#">Ambassadors</a></li>
+            <li><a class="dropdown-item" href="#">Partnerships</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex align-items-center gap-4" role="search">
+        <button id="themeToggle"type="button" class="btn btn-outline-secondary">
+    <i class="bi bi-moon"></i></i>
+</button>
+        <i class="bi bi-search"></i>
+        <button type="button" class="btn btn-primary btn-sm">Sign up now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </div>
+    <div class="text-center py-5">
+  <span class="badge rounded-pill border text-secondary px-3 py-2 mb-0 ">This week in investing ›</span>
+  <h1 class="display-4 fw-bold">Money works when<br>you know how.</h1>
+  <p class="lead text-muted">Everything you need to know about your money,<br> minus the jargon.</p>
+</div>
+<div class="container py-5">
+  <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+
+      <div class="carousel-item active">
+        <div class="row g-0 border border-secondary rounded overflow-hidden slide-height">
+          <div class="col-md-6 h-100">
+            <img src="img/cowryriseimg2.jpg" class="w-100 h-100 object-fit-cover" alt="Tobi Afintinni">
+          </div>
+          <div class="col-md-6 h-100 p-5 d-flex flex-column justify-content-center bg-dark text-white">
+            <div class="mb-3">
+              <span class="badge bg-secondary bg-opacity-25 text-white me-2">At Work</span>
+              <span class="badge bg-secondary bg-opacity-25 text-white">Engineering</span>
+            </div>
+            <h2 class="display-6 fw-bold">One Year In: Why Clean SQL Is Not Enough</h2>
+            <p class="text-white-50 mt-3">One year as a Data Analytics Engineer at Cowrywise. About two months in, I wrote a query I...</p>
+            <div class="d-flex align-items-center justify-content-between mt-4">
+              <div class="d-flex align-items-center gap-2">
+                <img src="assets/img/cowryriseimg2.jpg" class="rounded-circle" width="32" height="32" alt="">
+                <span>Tobi Afintinni</span>
+              </div>
+              <span class="text-white-50 small">7 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-0 border border-secondary rounded overflow-hidden slide-height">
+          <div class="col-md-6 h-100">
+            <img src="img/cowryriseimg3.webp" class="w-100 h-100 object-fit-cover" alt="Compound interest illustration">
+          </div>
+          <div class="col-md-6 h-100 p-5 d-flex flex-column justify-content-center bg-dark text-white">
+            <div class="mb-3">
+              <span class="text-primary me-3">Investing</span>
+              <span class="text-white-50 me-3"><i class="bi bi-lightbulb"></i>Money Tips</span>
+              <span class="text-white-50">Ope's Diary</span>
+            </div>
+            <h2 class="display-6 fw-bold">Nobody Prices a Benz in Days: A Compound Interest Lesson</h2>
+            <p class="text-white-50 mt-3">An Ope's Diary entry sharp-sharp /ʃap-ʃap/ ADVERB |Slang| (NigEn) immediately, without...</p>
+            <div class="d-flex align-items-center justify-content-between mt-4">
+              <div class="d-flex align-items-center gap-2">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:32px; height:32px;">O</div>
+                <span>Ope</span>
+              </div>
+              <span class="text-white-50 small">4 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-0 border border-secondary rounded overflow-hidden slide-height">
+          <div class="col-md-6 h-100">
+            <img src="img/cowryriseimg1.jpg" class="w-100 h-100 object-fit-cover" alt="Dangote IPO illustration">
+          </div>
+          <div class="col-md-6 h-200 p-5 d-flex flex-column justify-content-center bg-dark text-white">
+            <div class="mb-3">
+              <span class="text-primary">Investing</span>
+            </div>
+            <h2 class="display-6 fw-bold">Dangote IPO 2026: Price, Minimum &amp; How to Buy</h2>
+            <p class="text-white-50 mt-3">The Dangote Refinery IPO opens on 14 September 2026 and closes on 13 October 2026, and each...</p>
+            <div class="d-flex align-items-center justify-content-between mt-4">
+              <div class="d-flex align-items-center gap-2">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:32px; height:32px;">O</div>
+                <span>Ope</span>
+              </div>
+              <span class="text-white-50 small">5 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev" style="Left: -90px;">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next" style="right: -90px;">
+  <span class="carousel-control-next-icon"></span>
+</button>
+
+    </div>
+    <div class="d-flex justify-content-center gap-2 mt-3">
+  <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0"
+    class="p-0 border border-2 border-secondary rounded-circle active bg-primary"
+    style="width: 14px; height: 14px;" aria-current="true"></button>
+  <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1"
+    class="p-0 border border-2 border-secondary rounded-circle bg-transparent"
+    style="width: 14px; height: 14px;"></button>
+  <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2"
+    class="p-0 border border-2 border-secondary rounded-circle bg-transparent"
+    style="width: 14px; height: 14px;"></button>
+</div>
+
+<div class="container py-5">
+  <div class="row g-4">
+
+    <div class="col-lg-8">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg4.png" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small"><i class="bi bi-currency-dollar"></i>Savings</span>
+              <h5 class="fw-bold mt-2">How much it costs to be a premier league fan in Nigeria</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+                <span class="small">Ope</span>
+                <span class="text-white-50 small ms-auto">August 26, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg5.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">Stories</span>
+              <h5 class="fw-bold mt-2">For young Nigerians, financial freedom takes more than a good job</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+                <span class="small">Ope</span>
+                <span class="text-white-50 small ms-auto">August 12, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <h6 class="text-uppercase text-white-50 mb-4" style="letter-spacing: 1px;">Spotlight</h6>
+
+      <div class="d-flex gap-3 mb-4 pb-4 border-bottom border-secondary">
+        <div class="flex-grow-1">
+          <span class="text-primary small">Money Tips</span>
+          <span class="text-secondary-50 small"> | Stories</span>
+          <h6 class="fw-bold mt-1 text-secondary-50">Your Future Self Thanks You</h6>
+          <span class="text-secondary-50 small">February 10, 2024</span>
+        </div>
+        <img src="img/cwimg6.webp" class="rounded" style="width:70px; height:70px; object-fit:cover;" alt="">
+      </div>
+
+      <div class="d-flex gap-3 mb-4 pb-4 border-bottom border-secondary">
+        <div class="flex-grow-1">
+          <span class="text-primary small">Stories</span>
+          <h6 class="fw-bold mt-1 text-secondary-50">Top 10 Richest Men In The World</h6>
+          <span class="text-secondary-50 small">June 27, 2023</span>
+        </div>
+        <img src="img/cwimg7.webp" class="rounded" style="width:70px; height:70px; object-fit:cover;" alt="">
+      </div>
+
+      <div class="d-flex gap-2">
+        <div class="flex-grow-1">
+          <span class="text-primary small">Investing</span>
+          <span class="text-secondary-50 small"> | Stories</span>
+          <h6 class="fw-bold mt-1 text-secondary-50">Bull and Bear Market: What is the Difference?</h6>
+          <span class="text-secondary-50 small">June 26, 2023</span>
+        </div>
+        <img src="img/cwimg8.webp" class="rounded" style="width:70px; height:70px; object-fit:cover;" alt="">
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card border-0">
+        <img src="img/cwimg9.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+        <div class="card-body px-0 bg-dark text-white">
+          <span class="text-primary small">Money Tips</span>
+          <h5 class="fw-bold mt-2">What percentage of income should go to rent in Nigeria?</h5>
+          <div class="d-flex align-items-center gap-2 mt-3 py-4">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+            <span class="small">Ope</span>
+            <span class="text-body-secondary small ms-auto">June 17, 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card border-0">
+        <img src="img/cwimg10.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+        <div class="card-body px-0 bg-dark text-white">
+          <span class="text-primary small">At Work</span>
+          <span class="text-body-secondary small"> | Engineering</span>
+          <h5 class="fw-bold mt-2">Building Cowrywise Kids with Kotlin Multiplatform</h5>
+          <div class="d-flex align-items-center gap-2 mt-3 py-4">
+            <img src="img/moronke.jpg" class="rounded-circle" width="28" height="28" alt="">
+            <span class="small">Moronke Anifowose</span>
+            <span class="text-body-secondary small ms-auto">June 10, 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card border-0 text-white sticky-top" style="background: linear-gradient(135deg, #1a2a5e, #3b5bdb); ">
+        <img src="img/cwimg4.png" class="card-img-top"style="height: 160px; object-fit: cover;" alt="">
+        <div class="card-body d-flex flex-column">
+          <h4 class="fw-bold">The Dangote IPO is coming</h4>
+          <p class="text-white-50">Get your account ready now so you can buy the day it opens.</p>
+          <a href="#" class="btn btn-light btn-sm mt-auto align-self-start">Buy Now ↗</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="card border-0">
+        <img src="img/cwimg11.webp" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+        <div class="card-body px-0 bg-dark text-white">
+          <span class="text-primary small">Money Tips</span>
+          <span class="text-primary small"><i class="bi bi-currency-dollar"></i> | Savings</span>
+          <h5 class="fw-bold mt-2">how to build on Emergency Fund in Nigeria before life happens</h5>
+          <div class="d-flex align-items-center gap-2 mt-3 py-4">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+            <span class="small">Ope</span>
+            <span class="text-body-secondary small ms-auto">June 6, 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+     <div class="col-md-4">
+      <div class="card border-0">
+        <img src="img/cwimg12.webp" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+        <div class="card-body px-0 bg-dark text-white">
+          <span class="text-primary small">Product</span>
+          <h5 class="fw-bold mt-2">How to Buy IPO Shares in Nigeria(and when you shouldn't</h5>
+          <div class="d-flex align-items-center gap-2 mt-3 py-4">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+            <span class="small">Ope</span>
+            <span class="text-body-secondary small ms-auto">May 23, 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container py-4">
+  <div class="row g-4">
+
+    <div class="col-lg-8">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg13.jpeg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">Guides</span>
+              <span class="text-primary small">Uncategorized</span>
+              <h5 class="fw-bold mt-2">How to Save for Weddings, Haji and Masters Degree without Panic Debt</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+                <span class="small">Ope</span>
+                <span class="text-white-50 small ms-auto">May 7, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg14.webp" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">Money News</span>
+              <span class="text-primary small">Nigerian Finance in Focus </span>
+              <h5 class="fw-bold mt-2">$6.44 Billion Enterd Nigeria in Q4 2025: Here/s Where it Went</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+                <span class="small">Ope</span>
+                <span class="text-white-50 small ms-auto">March 26, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div class="col-md-6">
+        <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg15.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+             <div class="card-body px-0">
+              <span class="text-primary small">Money Tips</span>
+              <span class="text-primary small"><i class="bi bi-currency-dollar"></i>Savings </span>
+              <h5 class="fw-bold mt-2">Your Bank Balance is Lying to You. Especially on Salary week</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+               <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+               <span class="small">Ope</span>
+              <span class="text-white-50 small ms-auto">March 25, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-md-6">
+        <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg16.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+             <div class="card-body px-0">
+              <span class="text-primary small">Product</span>
+              <span class="text-primary small"> Stocks </span>
+              <h5 class="fw-bold mt-2">Why did my trade execute at a different price than the chart?</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+               <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+               <span class="small">Ope</span>
+              <span class="text-white-50 small ms-auto">Febuary 20, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-md-6">
+        <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg17.png" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+             <div class="card-body px-0">
+              <span class="text-primary small">Money News</span>
+              <h5 class="fw-bold mt-2">Nigeria/s Foreign Reserves Just Hit a 13-YearHigh:Here/s Why Your Wallet Cares</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+               <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+               <span class="small">Ope</span>
+              <span class="text-white-50 small ms-auto">Febuary 19. 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-md-6">
+        <div class="card bg-dark text-white border-0">
+            <img src="img/cwimg18.jpg" class="card-img-top" style="height: 220px; object-fit: cover;" alt="">
+             <div class="card-body px-0">
+              <span class="text-primary small">Money Tips</span>
+              <span class="text-primary small">Product</span>
+              <span class="text-primary small"> Uncategorized </span>
+              <h5 class="fw-bold mt-2">Different Salaries in a Relartionship: How Nigerian Couples can plan together</h5>
+              <div class="d-flex align-items-center gap-2 mt-3 py-4">
+               <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width:28px; height:28px;">O</div>
+               <span class="small">Ope</span>
+              <span class="text-white-50 small ms-auto">Febuary 10, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container py-3">
+  <div class="row g-4">
+
+    <div class="col-md-6">
+      <div class="card border-0 text-white h-100" style="min-height: 600px;">
+        <img src="img/bogle.jpg" class="w-100 h-100 object-fit-cover rounded" alt="John C. Bogle" style="position: absolute; z-index: -1;">
+        <div class="card-body d-flex flex-column justify-content-end p-4">
+          <span class="text-primary small mb-2">📈 Investing</span>
+          <h3 class="fw-bold">John C. Bogle: 20 things you didn't know about the Father of Index Funds</h3>
+          <div class="d-flex align-items-center gap-2 mt-3">
+            <img src="img/felix.jpg" class="rounded-circle" width="32" height="32" alt="">
+            <span>Felix Akinnibi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="row g-4">
+
+        <div class="col-6">
+          <div class="card border-0">
+            <img src="img/investing-quotes.jpg" class="card-img-top" style="height: 140px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">📈 Investing</span>
+              <h6 class="fw-bold mt-1">15 Interesting Investing Quotes</h6>
+              <div class="d-flex align-items-center gap-2 mt-2">
+                <img src="img/morenikeji.jpg" class="rounded-circle" width="24" height="24" alt="">
+                <span class="small">Morenikeji Odebiyi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card border-0">
+            <img src="img/stocks-bonds.jpg" class="card-img-top" style="height: 140px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">🎓 Guides</span>
+              <span class="text-primary small"> | 📈 Investing</span>
+              <h6 class="fw-bold mt-1">Stocks vs Bonds: Key Differences</h6>
+              <div class="d-flex align-items-center gap-2 mt-2">
+                <img src="img/timi.jpg" class="rounded-circle" width="24" height="24" alt="">
+                <span class="small">Timi Joel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card border-0">
+            <img src="img/angel-investors.jpg" class="card-img-top" style="height: 140px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">📈 Investing</span>
+              <h6 class="fw-bold mt-1">Who Are Angel Investors?</h6>
+              <div class="d-flex align-items-center gap-2 mt-2">
+                <img src="img/timi.jpg" class="rounded-circle" width="24" height="24" alt="">
+                <span class="small">Timi Joel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card border-0">
+            <img src="img/treasury-bills.jpg" class="card-img-top" style="height: 140px; object-fit: cover;" alt="">
+            <div class="card-body px-0">
+              <span class="text-primary small">🎓 Guides</span>
+              <span class="text-primary small"> | 📈 Investing</span>
+              <h6 class="fw-bold mt-1">Treasury Bills vs Bonds</h6>
+              <div class="d-flex align-items-center gap-2 mt-2">
+                <img src="img/favour.jpg" class="rounded-circle" width="24" height="24" alt="">
+                <span class="small">Favour Onojodofia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+    const html = document.documentElement;
+    const themeToggle = document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", function () {
+
+        if (html.getAttribute("data-bs-theme") === "dark") {
+            html.setAttribute("data-bs-theme", "light");
+
+            themeToggle.innerHTML =
+                '<i class="bi bi-moon-fill"></i> ';
+
+        } else {
+            html.setAttribute("data-bs-theme", "dark");
+
+            themeToggle.innerHTML =
+                '<i class="bi bi-sun-fill"></i> ';
+        }
+
+    });
+</script>
+</body>
+</html>
