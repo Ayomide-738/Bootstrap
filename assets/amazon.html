@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Navbar - Bootstrap</title> 
+    <link rel="stylesheet" href="CSS/amazon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark-custom py-2">
+  <div class="container-fluid flex-nowrap align-items-center">
+
+    <a class="navbar-brand nav-hover me-3" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" height="26">
+    </a>
+
+    <a class="nav-hover text-white text-decoration-none d-flex align-items-center me-3" href="#">
+      <span class="pin-icon me-1"><i class="bi bi-geo-alt"></i></span>
+      <span class="lh-sm">
+        <span class="d-block small text-light">Deliver to</span>
+        <span class="d-block fw-bold">Nigeria</span>
+      </span>
+    </a>
+
+    <form class="d-flex flex-grow-1 search-form" role="search">
+      <select class="form-select search-select">
+        <option>All</option>
+      </select>
+      <input class="form-control search-input" type="search" value="backpack for kids">
+      <button class="btn search-btn" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+
+    <a class="nav-hover text-white text-decoration-none d-flex align-items-center mx-3" href="#">
+       <span class="ms-1">EN</span><span class="ms-1">▾</span>
+    </a>
+
+  
+    <a class="nav-hover text-white text-decoration-none me-3 lh-sm" href="#">
+      <span class="d-block small text-light">Hello, sign in</span>
+      <span class="d-block fw-bold">Account &amp; Lists <span>▾</span></span>
+    </a>
+
+  
+    <a class="nav-hover text-white text-decoration-none me-3 lh-sm" href="#">
+      <span class="d-block small text-light">Returns</span>
+      <span class="d-block fw-bold">&amp; Orders</span>
+    </a>
+
+    <a class="nav-hover text-white text-decoration-none d-flex align-items-end" href="#">
+      <span class="position-relative">
+        🛒
+        <span class="cart-count">0</span>
+      </span>
+      <span class="fw-bold ms-1">Cart</span>
+    </a>
+
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-subnav py-1">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#subnavLinks">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="subnavLinks">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link nav-hover fw-bold" href="#">☰ All</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Amazon Bazaar</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Prime Video</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Coupons</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Customer Service</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Today's Deals</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Registry</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Gift Cards</a></li>
+        <li class="nav-item"><a class="nav-link nav-hover" href="#">Sell</a></li>
+      </ul>
+    </div>
+    <span class="text-white small d-none d-md-inline ms-auto">Download Amazon Bazaar app</span>
+  </div>
+</nav>
+
+
+<div class="results-count px-3 py-2 d-flex justify-content-between align-items-center">
+  <span>1-48 of over 60,000 results for <strong>"backpack for kids"</strong></span>
+  <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    Sort by: Featured
+  </button>
+</div>
+
+<div class="container-fluid px-3 px-md-4 mt-3">
+  <div class="row">
+
+  
+    <aside class="col-12 col-md-3 col-lg-2 mb-4">
+      <h6 class="filter-title mt-0">Popular Shopping Ideas</h6>
+      <a class="filter-link" href="#">Age 8-12</a>
+      <a class="filter-link" href="#">Mini</a>
+      <a class="filter-link" href="#">Small</a>
+      <a class="filter-link" href="#">Lunch Box</a>
+      <a class="filter-link" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+      <h6 class="filter-title">Gender</h6>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="boys">
+        <label class="form-check-label" for="boys">Boys</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="girls">
+        <label class="form-check-label" for="girls">Girls</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="unisex">
+        <label class="form-check-label" for="unisex">Unisex</label>
+      </div>
+
+      <h6 class="filter-title">Customer Reviews</h6>
+      <div class="stars mb-3">★★★★<span class="text-muted">☆</span> & Up</div>
+      <h6 class="filter-title">Color</h6>
+      <div class="mb-2">
+        <span class="swatch" style="background:conic-gradient(red,yellow,lime,cyan,blue,magenta,red);"></span>
+        <span class="swatch" style="background:#2b2b2b;"></span>
+        <span class="swatch" style="background:#e29bc4;"></span>
+        <span class="swatch" style="background:#b9b9b9;"></span>
+        <span class="swatch swatch-border" style="background:#fff;"></span>
+        <span class="swatch" style="background:#3a2b1f;"></span>
+        <span class="swatch" style="background:#c8a27a;"></span>
+        <span class="swatch" style="background:#b3243a;"></span>
+        <span class="swatch" style="background:#e2703a;"></span>
+        <span class="swatch" style="background:#f2d94e;"></span>
+        <span class="swatch swatch-border" style="background:#fff;"></span>
+        <span class="swatch" style="background:#3f7d3f;"></span>
+        <span class="swatch" style="background:#3b5bdb;"></span>
+        <span class="swatch" style="background:#7d5bdb;"></span>
+        <span class="swatch" style="background:#c9b458;"></span>
+        <span class="swatch" style="background:#9aa5b1;"></span>
+        <span class="swatch" style="background:#cfe3f7;"></span>
+      </div>
+
+      <h6 class="filter-title">Brands</h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="jansport">
+  <label class="form-check-label" for="jansport">JanSport</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="nike">
+  <label class="form-check-label" for="nike">Nike</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="adidas">
+  <label class="form-check-label" for="adidas">adidas</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="puma">
+  <label class="form-check-label" for="puma">PUMA</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="under-armour">
+  <label class="form-check-label" for="under-armour">Under Armour</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="disney">
+  <label class="form-check-label" for="disney">Disney</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="skiphop">
+  <label class="form-check-label" for="skiphop">Skip Hop</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="osprey">
+  <label class="form-check-label" for="osprey">Osprey</label>
+</div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+<h6 class="filter-title">Amazon Fashion</h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="premium-brands">
+  <label class="form-check-label" for="premium-brands">Premium Brands</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="top-brands">
+  <label class="form-check-label" for="top-brands">Top Brands</label>
+</div>
+
+<h6 class="filter-title">Deals &amp; Discounts</h6>
+<a class="filter-link" href="#">All Discounts</a>
+<a class="filter-link" href="#">Buy More, Save More</a>
+<a class="filter-link" href="#">Coupons</a>
+<a class="filter-link" href="#">Today's Deals</a>
+
+<h6 class="filter-title">Recommended Uses For Product</h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-school">
+  <label class="form-check-label" for="use-school">School</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-sport">
+  <label class="form-check-label" for="use-sport">Sport</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-travel">
+  <label class="form-check-label" for="use-travel">Travel</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-gym">
+  <label class="form-check-label" for="use-gym">Gym</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-leisure">
+  <label class="form-check-label" for="use-leisure">Leisure</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="use-work">
+  <label class="form-check-label" for="use-work">Work</label>
+</div>
+
+<h6 class="filter-title">Water Resistance Level</h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="moisture-resistant">
+  <label class="form-check-label" for="moisture-resistant">Moisture Resistant</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="not-water-resistant">
+  <label class="form-check-label" for="not-water-resistant">Not Water Resistant</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="water-repellent">
+  <label class="form-check-label" for="water-repellent">Water Repellent</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="water-resistant">
+  <label class="form-check-label" for="water-resistant">Water Resistant</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="waterproof">
+  <label class="form-check-label" for="waterproof">Waterproof</label>
+</div>
+
+<h6 class="filter-title">Pattern</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-solid"><label class="form-check-label" for="pattern-solid">Solid</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-floral"><label class="form-check-label" for="pattern-floral">Floral</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-animal"><label class="form-check-label" for="pattern-animal">Animal Print</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-argyle"><label class="form-check-label" for="pattern-argyle">Argyle</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-camo"><label class="form-check-label" for="pattern-camo">Camouflage</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-checkered"><label class="form-check-label" for="pattern-checkered">Checkered</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="pattern-cow"><label class="form-check-label" for="pattern-cow">Cow Print</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Theme</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-aesthetic"><label class="form-check-label" for="theme-aesthetic">Aesthetic</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-airplane"><label class="form-check-label" for="theme-airplane">Airplane</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-alien"><label class="form-check-label" for="theme-alien">Alien</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-alphabets"><label class="form-check-label" for="theme-alphabets">Alphabets</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-animals"><label class="form-check-label" for="theme-animals">Animals</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-anime"><label class="form-check-label" for="theme-anime">Anime</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="theme-beach"><label class="form-check-label" for="theme-beach">Beach</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Closure Type</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-zipper"><label class="form-check-label" for="closure-zipper">Zipper</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-drawstring"><label class="form-check-label" for="closure-drawstring">Drawstring</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-buckle"><label class="form-check-label" for="closure-buckle">Buckle</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-button"><label class="form-check-label" for="closure-button">Button</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-flap"><label class="form-check-label" for="closure-flap">Flap</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-magnetic"><label class="form-check-label" for="closure-magnetic">Magnetic</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="closure-snap"><label class="form-check-label" for="closure-snap">Snap</label></div>
+
+<h6 class="filter-title">Backpack Design</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="design-laptop"><label class="form-check-label" for="design-laptop">Laptop Backpack</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="design-daypack"><label class="form-check-label" for="design-daypack">Daypack Backpack</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="design-handbag"><label class="form-check-label" for="design-handbag">Backpack Handbag</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="design-framed"><label class="form-check-label" for="design-framed">Framed Backpack</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Care Instructions</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-dryclean"><label class="form-check-label" for="care-dryclean">Dry Clean Only</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-handwash"><label class="form-check-label" for="care-handwash">Hand Wash Only</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-machinewash"><label class="form-check-label" for="care-machinewash">Machine Wash</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-spotclean"><label class="form-check-label" for="care-spotclean">Spot Clean Only</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-dampcloth"><label class="form-check-label" for="care-dampcloth">Wipe with Damp Cloth</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="care-drycloth"><label class="form-check-label" for="care-drycloth">Wipe with Dry Cloth</label></div>
+
+<h6 class="filter-title">Material</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-nylon"><label class="form-check-label" for="material-nylon">Nylon</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-polyester"><label class="form-check-label" for="material-polyester">Polyester</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-plastic"><label class="form-check-label" for="material-plastic">Plastic</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-acrylic"><label class="form-check-label" for="material-acrylic">Acrylic</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-corduroy"><label class="form-check-label" for="material-corduroy">Corduroy</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-canvas"><label class="form-check-label" for="material-canvas">Canvas</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="material-aluminum"><label class="form-check-label" for="material-aluminum">Aluminum</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Shell Type</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="shell-hard"><label class="form-check-label" for="shell-hard">Hard Shell</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="shell-soft"><label class="form-check-label" for="shell-soft">Soft Shell</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="shell-hybrid"><label class="form-check-label" for="shell-hybrid">Hybrid</label></div>
+
+<h6 class="filter-title">Sport Type</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-basketball"><label class="form-check-label" for="sport-basketball">Basketball</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-football"><label class="form-check-label" for="sport-football">Football</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-baseball"><label class="form-check-label" for="sport-baseball">Baseball</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-backpacking"><label class="form-check-label" for="sport-backpacking">Backpacking</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-badminton"><label class="form-check-label" for="sport-badminton">Badminton</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-boxing"><label class="form-check-label" for="sport-boxing">Boxing</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="sport-canoeing"><label class="form-check-label" for="sport-canoeing">Canoeing</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Seller</h6>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="seller-amazon"><label class="form-check-label" for="seller-amazon">Amazon.com</label></div>
+<div class="form-check"><input class="form-check-input" type="checkbox" id="seller-baihuishop"><label class="form-check-label" for="seller-baihuishop">BAIHUISHOP</label></div>
+<a class="filter-link mt-1" href="#">See more <i class="bi bi-chevron-down"></i></a>
+
+<h6 class="filter-title">Top Brands</h6>
+      
+    </aside>
+
+    <!-- ===== Product results ===== -->
+    <main class="col-12 col-md-9 col-lg-10">
+      <div class="d-flex justify-content-between align-items-start flex-wrap">
+        <div>
+          <h5 class="mb-1">Results</h5>
+          <p class="text-muted small mb-3">Check each product page for other buying options. Price and other details may vary based on product size and color.</p>
+        </div>
+        <div class="dropdown mb-2">
+          <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Sort by: Featured
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Featured</a></li>
+            <li><a class="dropdown-item" href="#">Price: Low to High</a></li>
+            <li><a class="dropdown-item" href="#">Price: High to Low</a></li>
+            <li><a class="dropdown-item" href="#">Avg. Customer Review</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-3">
+
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 border-0 product-card">
+            <span class="badge-best-seller">Best Seller</span>
+            <img src="img/amzimg.webp" class="card-img-top" alt="Spidey backpack">
+            <div class="card-body px-1">
+              <p class="product-title mb-1">Simple Modern Marvel Spidey Kids Backpack for School, Girls, Boys | 12L</p>
+              <p class="product-sub mb-1">Fletcher Spiderman Bookbag,…</p>
+              <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(6K)</span></div>
+              <p class="bought-count mb-1">3K+ bought in past month</p>
+              <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">66,368</span><span class="price-frac">22</span></p>
+              <p class="delivery-note mb-0">NGN 29,725.64 delivery <strong>Tue, Oct 6</strong></p>
+              <p class="ships-note">Ships to Nigeria</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 border-0 product-card">
+            <span class="badge-overall-pick">Overall Pick <i class="bi bi-info-circle"></i></span>
+            <img src="img/amzimg2.jpg" class="card-img-top" alt="Princess backpack">
+            <div class="card-body px-1">
+              <p class="product-title mb-1">Simple Modern Disney Princess Kids Backpack for School, Girls, Boys | 12L</p>
+              <p class="product-sub mb-1">Fletcher Princess Rainbows…</p>
+              <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(6K)</span></div>
+              <p class="bought-count mb-1">2K+ bought in past month</p>
+              <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">66,368</span><span class="price-frac">22</span></p>
+              <p class="delivery-note mb-0">NGN 37,147.09 delivery <strong>Tue, Oct 6</strong></p>
+              <p class="ships-note mb-2">Ships to Nigeria</p>
+              <button class="btn btn-add-cart">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 border-0 product-card">
+            <span class="badge-best-seller">Best Seller</span>
+            <img src="img/amzimg3.jpg" class="card-img-top" alt="Pixar backpack">
+            <div class="card-body px-1">
+              <p class="product-title mb-1">Simple Modern Disney Pixar Kids Backpack for School, Girls, Boys | 12L</p>
+              <p class="product-sub mb-1">Fletcher Pixar Bookbag, School…</p>
+              <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(6K)</span></div>
+              <p class="bought-count mb-1">1K+ bought in past month</p>
+              <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">66,368</span><span class="price-frac">22</span></p>
+              <p class="delivery-note mb-0">NGN 37,147.09 delivery <strong>Tue, Oct 6</strong></p>
+              <p class="ships-note mb-2">Ships to Nigeria</p>
+              <button class="btn btn-add-cart">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card h-100 border-0 product-card">
+            <img src="img/amzimg4.webp" class="card-img-top" alt="Rainbow backpack">
+            <div class="card-body px-1">
+              <p class="product-title mb-1">mibasies Girls Backpack 5-8: Lightweight Kids Backpacks for Girls - Girl Bookbag for…</p>
+              <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(2.1K)</span></div>
+              <p class="bought-count mb-1">2K+ bought in past month</p>
+              <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">26,539</span><span class="price-frac">32</span></p>
+              <p class="delivery-note mb-0">NGN 34,465.27 delivery <strong>Tue, Oct 6</strong></p>
+              <p class="ships-note mb-2">Ships to Nigeria</p>
+              <button class="btn btn-add-cart">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col">
+          <div class="card h-100 border-0 product-card">
+            <img src="img/amzimg5.jpg" class="card-img-top" alt="Buzz Lightyear backpack">
+            <div class="card-body px-1">
+              <p class="product-title mb-1">Disney Children's Backpack Toy Story Buzz Lightyear Green One Size</p>
+              <p class="product-sub mb-1">3D Buzz Wings, Adjustable…</p>
+              <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(2K)</span></div>
+              <p class="bought-count mb-1">1K+ bought in past month</p>
+              <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">54,419</span><span class="price-frac">55</span></p>
+              <p class="delivery-note mb-0">NGN 23,499.05 delivery <strong>Tue, Oct 6</strong></p>
+              <p class="ships-note mb-2">Ships to Nigeria</p>
+              <button class="btn btn-add-cart">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 11 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="School backpack for teen girls">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">School Backpack for Teen Girls Backpacks Corduroy School Bags, Lightweight Women…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(50)</span></div>
+      <p class="bought-count mb-1">800+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">9,306</span><span class="price-frac">07</span></p>
+      <p class="typical-price mb-1">Typical: <span class="strike">NGN11,968.75</span></p>
+      <p class="delivery-note mb-0">NGN 29,808.70 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 12 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg7.jpg" class="card-img-top" alt="Cute school backpack and lunch box set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Cute School Backpack for Girls Backpack and Lunch Box Set Kids Backpack Bookbag Teen…</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(8)</span></div>
+      <p class="bought-count mb-1">300+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">53,240</span><span class="price-frac">29</span></p>
+      <p class="coupon-note mb-1">You pay NGN 47,914.93 with coupon</p>
+      <p class="delivery-note mb-0">NGN 46,743.35 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 13 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg8.webp" class="card-img-top" alt="Trail maker classic 17 inch backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Trail maker Classic 17 inch Backpacks with Adjustable Padded Straps | School…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(1.5K)</span></div>
+      <p class="bought-count mb-1">300+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">13,300</span><span class="price-frac">09</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 14 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg9.webp" class="card-img-top" alt="Disney Buzz Lightyear backpack one size">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Disney Children's Backpack Toy Story Buzz Lightyear Green One Size</p>
+      <p class="product-sub mb-1">3D Buzz Wings, Adjustable…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(2K)</span></div>
+      <p class="bought-count mb-1">1K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">53,240</span><span class="price-frac">15</span></p>
+      <p class="typical-price mb-1">Typical: <span class="strike">NGN26,613.49</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 15 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg10.webp" class="card-img-top" alt="RHCPFOVR Kids Backpack for Girls">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">RHCPFOVR Kids Backpack for Girls - Girls Backpack 3-8 Ages Butterfly for Kids 15 Inch…</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(434)</span></div>
+      <p class="bought-count mb-1">700+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">25,282</span><span class="price-frac">15</span></p>
+      <p class="delivery-note mb-0">NGN 26,240.71 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 16 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg4.webp" class="card-img-top" alt="LOVEVOOK school backpack for teen girl">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">LOVEVOOK School Backpack for Teen Girl, Cute Bookbag for Student</p>
+      <p class="product-sub mb-1">Back to School Backpack for…</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(45)</span></div>
+      <p class="bought-count mb-1">100+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">21,274</span><span class="price-frac">81</span></p>
+      <p class="typical-price mb-1">List: <span class="strike">NGN53,240.29</span></p>
+      <p class="delivery-note mb-0">NGN 41,910.58 delivery <strong>Fri, Oct 9</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 17 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="JanSport Right Pack backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">JanSport Right Pack Backpack - Durable Daypack with Padded 15" Laptop Sleeve,…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(6.4K)</span></div>
+      <p class="bought-count mb-3">300+ bought in past month</p>
+      <button class="btn btn-add-cart">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 18 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg2.jpg" class="card-img-top" alt="Trail maker 15 inch kids backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Trail maker 15 Inch Kids Backpacks for Boys & Girls | Preschool, Kindergarten,…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(1.3K)</span></div>
+      <p class="bought-count mb-1">600+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">13,033</span><span class="price-frac">82</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Tue, Oct 13</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 19 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="rickyh style school backpack travel bag">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">rickyh style School Backpack Travel Bag for Men & Women Lightweight College</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(9.2K)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">22,619</span><span class="price-frac">47</span></p>
+      <p class="delivery-note mb-0">NGN 27,918.20 delivery <strong>Thu, Oct 8</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 20 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg10.webp" class="card-img-top" alt="Trail maker Fun School backpack for elementary">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Trail maker Fun School Backpack for Elementary Middle School Girls and Boys…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(1.5K)</span></div>
+      <p class="bought-count mb-1">100+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">11,888</span><span class="price-frac">87</span></p>
+      <p class="typical-price mb-1">List: <span class="strike">NGN13,300.09</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 16 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg7.jpg" class="card-img-top" alt="LOVEVOOK school backpack for teen girl">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">LOVEVOOK School Backpack for Teen Girl, Cute Bookbag for Student</p>
+      <p class="product-sub mb-1">Back to School Backpack for…</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(45)</span></div>
+      <p class="bought-count mb-1">100+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">21,274</span><span class="price-frac">81</span></p>
+      <p class="typical-price mb-1">List: <span class="strike">NGN53,240.29</span></p>
+      <p class="delivery-note mb-0">NGN 41,910.58 delivery <strong>Fri, Oct 9</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 17 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg8.webp" class="card-img-top" alt="JanSport Right Pack backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">JanSport Right Pack Backpack - Durable Daypack with Padded 15" Laptop Sleeve,…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(6.4K)</span></div>
+      <p class="bought-count mb-3">300+ bought in past month</p>
+      <button class="btn btn-add-cart">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 18 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg2.jpg" class="card-img-top" alt="Trail maker 15 inch kids backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Trail maker 15 Inch Kids Backpacks for Boys & Girls | Preschool, Kindergarten,…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(1.3K)</span></div>
+      <p class="bought-count mb-1">600+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">13,033</span><span class="price-frac">82</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Tue, Oct 13</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 19 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg3.jpg" class="card-img-top" alt="rickyh style school backpack travel bag">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">rickyh style School Backpack Travel Bag for Men & Women Lightweight College</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(9.2K)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">22,619</span><span class="price-frac">47</span></p>
+      <p class="delivery-note mb-0">NGN 27,918.20 delivery <strong>Thu, Oct 8</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 20 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg5.jpg" class="card-img-top" alt="Trail maker Fun School backpack for elementary">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Trail maker Fun School Backpack for Elementary Middle School Girls and Boys…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(1.5K)</span></div>
+      <p class="bought-count mb-1">100+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">11,888</span><span class="price-frac">87</span></p>
+      <p class="typical-price mb-1">List: <span class="strike">NGN13,300.09</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+        
+<!-- Card 21 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="adidas Creator School Backpack 21L">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">adidas Creator School Backpack 21L Padded Laptop Sleeve, Durable…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(7.8K)</span></div>
+      <p class="bought-count mb-1">1K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">54,584</span><span class="price-frac">94</span></p>
+      <p class="typical-price mb-1">List: <span class="strike">NGN59,910.39</span></p>
+      <p class="delivery-note mb-0">NGN 37,250.89 delivery <strong>Oct 5 - 22</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 22 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg7.jpg" class="card-img-top" alt="Minecraft Steve and Creeper backpack">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Minecraft Steve & Creeper Backpack | Graphic Multicolour Backpack Print Zip-Up Bag for Back to…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(3.3K)</span></div>
+      <p class="bought-count mb-1">1K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">39,873</span><span class="price-frac">63</span></p>
+      <p class="delivery-note mb-0">NGN 26,826.50 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 23 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg3.jpg" class="card-img-top" alt="Corduroy Kids Backpack for Girls">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Corduroy Kids Backpack for Girls: Girls Backpack 5-8 Kindergarten Elementary…</p>
+      <p class="product-sub mb-1">15 Inch Water-Resistant…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(202)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">21,288</span><span class="price-frac">13</span></p>
+      <p class="typical-price mb-1">Typical: <span class="strike">NGN23,950.81</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 24 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="mibasies Kids Backpack for Girls set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">mibasies Kids Backpack for Girls: Set 18 Inch Bookbag, Insulated Lunch…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(243)</span></div>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">26,613</span><span class="price-frac">49</span></p>
+      <p class="delivery-note mb-0">NGN 34,561.59 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 25 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg9.webp" class="card-img-top" alt="Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(799)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">55,037</span><span class="price-frac">60</span></p>
+      <p class="delivery-note mb-0">NGN 54,797.95 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Card 23 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg3.jpg" class="card-img-top" alt="Corduroy Kids Backpack for Girls">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Corduroy Kids Backpack for Girls: Girls Backpack 5-8 Kindergarten Elementary…</p>
+      <p class="product-sub mb-1">15 Inch Water-Resistant…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(202)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">21,288</span><span class="price-frac">13</span></p>
+      <p class="typical-price mb-1">Typical: <span class="strike">NGN23,950.81</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 24 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg6.webp" class="card-img-top" alt="mibasies Kids Backpack for Girls set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">mibasies Kids Backpack for Girls: Set 18 Inch Bookbag, Insulated Lunch…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(243)</span></div>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">26,613</span><span class="price-frac">49</span></p>
+      <p class="delivery-note mb-0">NGN 34,561.59 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card 25 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg9.webp" class="card-img-top" alt="Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(799)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">55,037</span><span class="price-frac">60</span></p>
+      <p class="delivery-note mb-0">NGN 54,797.95 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Card 23 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg3.jpg" class="card-img-top" alt="Corduroy Kids Backpack for Girls">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Corduroy Kids Backpack for Girls: Girls Backpack 5-8 Kindergarten Elementary…</p>
+      <p class="product-sub mb-1">15 Inch Water-Resistant…</p>
+      <div class="mb-1"><span class="stars">★★★★<span class="text-muted">☆</span></span> <span class="rating-count">(202)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">21,288</span><span class="price-frac">13</span></p>
+      <p class="typical-price mb-1">Typical: <span class="strike">NGN23,950.81</span></p>
+      <p class="delivery-note mb-0">NGN 23,564.72 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Card 25 -->
+<div class="col">
+  <div class="card h-100 border-0 product-card">
+    <img src="img/amzimg9.webp" class="card-img-top" alt="Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set">
+    <div class="card-body px-1">
+      <p class="product-title mb-1">Get Trend Disney Minnie Mouse Kids Backpack 4 Pc Set</p>
+      <div class="mb-1"><span class="stars">★★★★★</span> <span class="rating-count">(799)</span></div>
+      <p class="bought-count mb-1">2K+ bought in past month</p>
+      <p class="mb-1"><span class="price-currency">NGN</span><span class="price-whole">55,037</span><span class="price-frac">60</span></p>
+      <p class="delivery-note mb-0">NGN 54,797.95 delivery <strong>Wed, Oct 7</strong></p>
+      <p class="ships-note mb-2">Ships to Nigeria</p>
+      <button class="btn btn-add-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </main>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
